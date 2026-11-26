@@ -1,0 +1,19 @@
+$kind: http-request
+name: http://localhost:3000/items
+description: ""
+url: http://localhost:3000/items
+method: GET
+body:
+  type: json
+  content: "\r
+
+    {\r
+
+    \  \"name\": \"Monitor\",\r
+
+    \  \"quantity\": 10,\r
+
+    \  \"price\": 15000\r
+
+    }\r\n"
+order: 1000
